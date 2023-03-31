@@ -5,9 +5,9 @@ import java.io.File;
 public class Main {
 
 	public static void main(String[] args) {
-		TextTransformer textTransformer = new TextTransformer();
+//		TextTransformer textTransformer = new TextTransformer();
 //		TextTransformer textTransformer = new InverseTransformer();
-//		TextTransformer textTransformer = new UpDownTransformer();
+		TextTransformer textTransformer = new UpDownTransformer();
 
 		File file = new File("TextTransformer.txt");
 
